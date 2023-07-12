@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="base_link_apk">https://play.google.com/store/apps/details?id=</string>
+    <string name="cancel">Cancelar</string>
+    <string name="signin_button_text">Iniciar sesión</string>
+    <string name="search_hint">Buscar...</string>
+    <string name="search_menu_title">Buscar</string>
+    <string name="more">Más</string>
+    <string name="sure_exit">¿Estás seguro de que quieres salir?</string>
+    <string name="bottom_navigation_menu_home">Inicio</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="language">Idioma</string>
+    <string name="help">Ayuda</string>
+    <string name="share">Compartir</string>
+    <string name="role">Administrador</string>
+    <string name="acount">Cuenta</string>
+    <string name="personal_data">Datos personales</string>
+    <string name="app_settings">Ajustes de la app</string>
+    <string name="others">Otros</string>
+    <string name="playstore">Visitar la app en Play Store</string>
+    <string name="hi_user">HOLA!\n[User Name]</string>
+    <string name="log_out">Cerrar Sesion</string>
+</resources>
