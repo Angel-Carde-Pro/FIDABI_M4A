@@ -112,4 +112,7 @@
     <color name="tooltip_background_light">#e6ffffff</color>
     <color name="whilte">#bbb9b9</color>
     <color name="acountdettextcolor">#404040</color>
+    <color name="graylowtone">#f2f2f3</color>
+    <color name="blueista">#1f54c3</color>
+    <color name="blueistadark">#00356c</color>
 </resources>
