@@ -32,30 +32,19 @@
 
                 <ImageView
                     android:id="@+id/img_add"
-                    android:layout_width="wrap_content"
+                    android:layout_width="60sp"
                     android:layout_height="60sp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="30dp"
+                    android:layout_alignParentStart="false"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="0dp"
                     android:src="@drawable/home_center_button_bg" />
 
-                <ImageView
-                    android:id="@+id/img_100"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/tv_test"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/ic_100" />
-
-                <TextView
-                    android:id="@+id/tv_test"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true" />
-
                 <ToggleButton
-                    android:id="@+id/tgbtn_waterdaily"
+                    android:id="@+id/home"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="52dp"
                     android:background="@drawable/togglebutton_dailywater"
@@ -65,21 +54,23 @@
                     android:textOn="" />
 
                 <ToggleButton
-                    android:id="@+id/tgbtn_history"
+                    android:id="@+id/scan"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="52dp"
-                    android:layout_toRightOf="@+id/tgbtn_waterdaily"
+                    android:layout_toRightOf="@+id/home"
                     android:background="@drawable/togglebutton_history"
                     android:textOff=""
                     android:textOn="" />
 
                 <ToggleButton
-                    android:id="@+id/tgbtn_setting"
+                    android:id="@+id/perfil"
                     android:layout_width="33dp"
                     android:layout_height="33dp"
                     android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
                     android:layout_marginTop="53dp"
                     android:layout_marginRight="25dp"
                     android:background="@drawable/togglebutton_setting"
@@ -90,9 +81,10 @@
                     android:id="@+id/tgbtn_weight"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
+                    android:layout_centerVertical="true"
                     android:layout_marginTop="52dp"
                     android:layout_marginRight="25dp"
-                    android:layout_toLeftOf="@+id/tgbtn_setting"
+                    android:layout_toLeftOf="@+id/perfil"
                     android:background="@drawable/togglebutton_weight"
                     android:textOff=""
                     android:textOn="" />
