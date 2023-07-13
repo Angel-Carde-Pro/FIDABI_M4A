@@ -10,15 +10,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.myapplication.request.LoginRequest;
-import com.example.myapplication.request.LoginResponse;
 
-import java.sql.CallableStatement;
-import java.sql.Types;
+import com.example.fidabi_m4a.request.LoginRequest;
+import com.example.fidabi_m4a.request.LoginResponse;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+
 
 public class LoginActivity extends AppCompatActivity {
     //variables del login activity
@@ -48,13 +47,13 @@ public class LoginActivity extends AppCompatActivity {
                     login();
                 }
             }
-                });
+        });
     }
     public void login (){
-        LoginRequest logre= new LoginRequest();
-        logre.setUsuario(txtcorreo.getText().toString());
-        logre.setPassword(txtpassword.getText().toString());
-        Call<LoginResponse> loginResponseCall = ApiClient.getUserService().userLogin(logre);
+        LoginRequest lore = new LoginRequest();
+        lore.setUsuario(txtcorreo.getText().toString());
+        lore.setPassword(txtpassword.getText().toString());
+        Call<LoginResponse> loginResponseCall = ApiClient.getUserService().userLogin(lore);
         loginResponseCall.enqueue(new Callback<LoginResponse>() {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
@@ -67,9 +66,9 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
-                    Toast.makeText(LoginActivity.this,"ERROR: "+t.getLocalizedMessage(),Toast.LENGTH_LONG);
+                Toast.makeText(LoginActivity.this,"ERROR: "+t.getLocalizedMessage(),Toast.LENGTH_LONG);
             }
         });
 
-            }
+    }
 }
