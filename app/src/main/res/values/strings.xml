@@ -19,6 +19,11 @@
     <string name="app_settings">Ajustes de la app</string>
     <string name="others">Otros</string>
     <string name="playstore">Visitar la app en Play Store</string>
+    <string name="accept">Aceptar y Continuar</string>
     <string name="hi_user">HOLA!\n[User Name]</string>
     <string name="log_out">Cerrar Sesion</string>
+    <string name="success_alert">Alerta de acción satisfactoria</string>
+    <string name="success_mssg">Se guardo la información correctamente</string>
+    <string name="fail_alert">Algo ocurrió….</string>
+    <string name="fail_mssg">Fallo al intentar guardar la información, por favor revise su conexión a internet</string>
 </resources>
